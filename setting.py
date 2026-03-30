@@ -1,4 +1,8 @@
 import matplotlib.pyplot as plt
+import matplotlib
+
+# 日本語フォント（例: ヒラギノ角ゴ ProN）
+matplotlib.rcParams['font.family'] = 'Hiragino Sans'
 
 plt.tick_params(labelbottom=False,
                 labelleft=False,
